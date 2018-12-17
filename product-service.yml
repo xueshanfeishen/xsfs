@@ -1,0 +1,14 @@
+#server port
+server:
+  port: 8083
+
+#connect register eureka service information config
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8081/eureka/
+
+#service name
+spring:
+  application:
+    name: product-service
